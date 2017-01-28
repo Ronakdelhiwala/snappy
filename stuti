@@ -1,0 +1,92 @@
+html,body{
+  font-family: "Roboto";
+  height: 100%;
+  width: 100%;
+  clear: both;
+}
+h1{
+  background-color: red;
+  color:white;
+
+}
+p{
+  background-color: blue;
+  color:white;
+}
+div{
+  background: black;
+  height:100%;
+    width: 70%;
+}
+div.sidebar{
+  width: 30%;
+
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  bottom:50px;
+}
+a{
+  color : white;
+}
+button {
+  background-color: purple;
+  color:white;
+border: solid 1px white;
+cursor: pointer;
+margin: 20px;
+}
+button:hover{
+  background: green;
+}
+.primary-button{
+  background: yellow;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+  <title> Snappy</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="sidebar">
+  <h1> Snappy </h1>
+  <p>
+    Hii.
+    I hate you.
+  </p>
+  <p>
+    <button>hello</button>
+      <button class="primary-button">world</button>
+        <button>hello</button>
+  </p>
+</div>
+<div>
+<h1> Snappy </h1>
+<p>
+  Hii.
+  I hate you.
+</p>
+<p>
+  <button>hello</button>
+    <button class="primary-button">world</button>
+      <button>hello</button>
+</p>
+</div>
+</body>
+</html>
